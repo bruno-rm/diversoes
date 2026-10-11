@@ -13,7 +13,7 @@ export default function Home() {
             height={500}
             loading="eager"
           />
-          
+        
         </div>
         
       </div>

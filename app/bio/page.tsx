@@ -10,7 +10,7 @@ const gallery = [
 
 export default function Home() {
   return (
-    <main className="mx-auto max-w-3xl px-6 pt-20">
+    <main className="mx-auto max-w-3xl px-6  pb-5">
       <div>
         <h2 className="text-lg">
           Diversões Eletrônicas é uma banda formada em 2012. Tem como estilo
@@ -19,7 +19,7 @@ export default function Home() {
           "Diversões Eletrônicas" originária de Goiânia.
         </h2>
       </div>
-      <div className="flex pt-10 justify-center">
+      <div className="flex justify-center">
         {gallery.map((item) => (
           <article
             key={item.id}
