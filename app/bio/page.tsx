@@ -10,16 +10,16 @@ const gallery = [
 
 export default function Home() {
   return (
-    <main className="mx-auto max-w-3xl px-6  pb-5">
+    <main className="mx-auto max-w-3xl px-6 pt-16 ">
       <div>
         <h2 className="text-lg">
           Diversões Eletrônicas é uma banda formada em 2012. Tem como estilo
           queda livre, ritmo & noise. Sua busca parece misturar o nome de uma
           música famosa com a cena de Goiânia, mas não existe uma banda chamada
-          "Diversões Eletrônicas" originária de Goiânia.
+          &quot;Diversões Eletrônicas&quot; originária de Goiânia.
         </h2>
       </div>
-      <div className="flex justify-center">
+      <div className="flex justify-center pt-10 pb-4">
         {gallery.map((item) => (
           <article
             key={item.id}

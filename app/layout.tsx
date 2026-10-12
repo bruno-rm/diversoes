@@ -55,7 +55,7 @@ export default function RootLayout({
             </Link>
           </div>
         </div>
-        <div className=" bg-white ">
+        <div className=" bg-white">
           {children}
           {/* Vercel Analytics */}
           {/* <Analytics /> */}

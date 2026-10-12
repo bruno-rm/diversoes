@@ -1,6 +1,6 @@
 export default function Home() {
   return (
-    <div className=" gap-4 min-h-[calc(100vh-2rem)] flex flex-col justify-center mx-auto md:max-w-3xl px-6 py-6">
+    <div className=" gap-4 flex flex-col justify-center mx-auto md:max-w-3xl px-6 pt-16">
       <div>
         <iframe
           style={{ width: "100%", height: "166" }}
