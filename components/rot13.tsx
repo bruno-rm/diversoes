@@ -15,7 +15,7 @@ export default function Rot13Converter() {
   }
 
   return (
-    <div className="space-y-3 md:mb-[50%]">
+    <div className="space-y-3 ">
       <div>
         <input value={text} readOnly />
       </div>
