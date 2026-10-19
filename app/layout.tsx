@@ -29,6 +29,9 @@ export default function RootLayout({
       lang="en"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
+      <head>
+        <meta name="google-site-verification" content="nfB5U3MdG-cW22LJOxzob69ja0roi3IXLFl_BfkcOtk" />
+      </head>
       <body>
         <div className="w-fit mx-auto">
           <div className="pt-2">
